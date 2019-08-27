@@ -1,0 +1,22 @@
+Proceso FactorialDeUnNumero
+	Escribir "Ingrese el número que deseas obtener:";
+	Leer numero;
+	Factorial <- 1;
+	Multiplicador <-1;
+	
+	Si numero <- 0 Entonces
+		Escribir "El factorial de 0 es: 1"
+	Sino
+		Para Multiplicador <- 1 Hasta numero Hacer
+			Factorial <-Factorial*Multiplicador
+		FinPara
+		
+	FinSi
+	
+	Escribir "El factorial de ",numero," es: ", Factorial
+	
+	//Valdez Ventura Mario Jair
+	
+FinProceso
+
+	
